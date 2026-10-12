@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# 附件数据（用 scripts/download_attachments.py 在本地拉）
+data/attachments/
+
+# 大文件与二进制中间产物
+*.zip
+*.rar
+*.7z
+*.mat
+*.pkl
+*.h5
+*.pt
+*.ckpt
+
+# LaTeX 中间产物
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.synctex.gz
+
+# 编辑器与系统
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# 临时/输出
+*.tmp
+output/
+results/tmp/

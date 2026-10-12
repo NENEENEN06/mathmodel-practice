@@ -1,0 +1,665 @@
+{
+ "generated_by": "手工整理 + scripts/build_index.py（题目文件与标题来自官方/镜像源，标签是我们自己的粗略分类）",
+ "competitions": {
+  "cumcm": {
+   "name": "全国大学生数学建模竞赛（国赛 CUMCM）",
+   "organizer": "中国工业与应用数学学会（CSIAM）",
+   "site": "https://www.mcm.edu.cn/",
+   "note": "本科组 A/B/C，专科组 D/E（2019 年起才有 E 题）；题目原文来自竞赛官网发布的年度赛题包。",
+   "years": {
+    "2016": [
+     {
+      "id": "A",
+      "title": "系泊系统的设计",
+      "file": "cumcm/2016/2016-A.pdf",
+      "topics": [
+       "优化",
+       "力学建模"
+      ],
+      "pages": 3,
+      "source": "https://www.mcm.edu.cn/html_cn/node/6d026d84bd785435f92e3079b4a87a2b.html",
+      "source_note": "题目原文取自公开镜像仓库 CosmicLinks/cumcm-problems；官方包为 RAR5，本机无解压能力"
+     },
+     {
+      "id": "B",
+      "title": "小区开放对道路通行的影响",
+      "file": "cumcm/2016/2016-B.pdf",
+      "topics": [
+       "评价",
+       "交通仿真"
+      ],
+      "pages": 1,
+      "source": "https://www.mcm.edu.cn/html_cn/node/6d026d84bd785435f92e3079b4a87a2b.html",
+      "source_note": "题目原文取自公开镜像仓库 CosmicLinks/cumcm-problems；官方包为 RAR5，本机无解压能力"
+     },
+     {
+      "id": "C",
+      "title": "电池剩余放电时间预测",
+      "file": "cumcm/2016/2016-C.pdf",
+      "topics": [
+       "预测",
+       "数据拟合"
+      ],
+      "pages": 2,
+      "source": "https://www.mcm.edu.cn/html_cn/node/6d026d84bd785435f92e3079b4a87a2b.html",
+      "source_note": "题目原文取自公开镜像仓库 CosmicLinks/cumcm-problems；官方包为 RAR5，本机无解压能力"
+     },
+     {
+      "id": "D",
+      "title": "风电场运行状况分析及优化",
+      "file": "cumcm/2016/2016-D.pdf",
+      "topics": [
+       "数据分析",
+       "优化"
+      ],
+      "pages": 2,
+      "source": "https://www.mcm.edu.cn/html_cn/node/6d026d84bd785435f92e3079b4a87a2b.html",
+      "source_note": "题目原文取自公开镜像仓库 CosmicLinks/cumcm-problems；官方包为 RAR5，本机无解压能力"
+     }
+    ],
+    "2017": [
+     {
+      "id": "A",
+      "title": "CT 系统参数标定及成像",
+      "file": "cumcm/2017/2017-A.pdf",
+      "topics": [
+       "反问题",
+       "数值计算"
+      ],
+      "pages": 1,
+      "source": "https://www.mcm.edu.cn/html_cn/node/460baf68ab0ed0e1e557a0c79b1c4648.html",
+      "source_note": "题目原文取自公开镜像仓库 CosmicLinks/cumcm-problems；官方包为 RAR5，本机无解压能力"
+     },
+     {
+      "id": "B",
+      "title": "“拍照赚钱”的任务定价",
+      "file": "cumcm/2017/2017-B.pdf",
+      "topics": [
+       "优化",
+       "聚类"
+      ],
+      "pages": 2,
+      "source": "https://www.mcm.edu.cn/html_cn/node/460baf68ab0ed0e1e557a0c79b1c4648.html",
+      "source_note": "题目原文取自公开镜像仓库 CosmicLinks/cumcm-problems；官方包为 RAR5，本机无解压能力"
+     },
+     {
+      "id": "C",
+      "title": "颜色与物质浓度辨识",
+      "file": "cumcm/2017/2017-C.pdf",
+      "topics": [
+       "回归",
+       "数据拟合"
+      ],
+      "pages": 2,
+      "source": "https://www.mcm.edu.cn/html_cn/node/460baf68ab0ed0e1e557a0c79b1c4648.html",
+      "source_note": "题目原文取自公开镜像仓库 CosmicLinks/cumcm-problems；官方包为 RAR5，本机无解压能力"
+     },
+     {
+      "id": "D",
+      "title": "巡检线路的排班",
+      "file": "cumcm/2017/2017-D.pdf",
+      "topics": [
+       "图论",
+       "排班优化"
+      ],
+      "pages": 2,
+      "source": "https://www.mcm.edu.cn/html_cn/node/460baf68ab0ed0e1e557a0c79b1c4648.html",
+      "source_note": "题目原文取自公开镜像仓库 CosmicLinks/cumcm-problems；官方包为 RAR5，本机无解压能力"
+     }
+    ],
+    "2018": [
+     {
+      "id": "A",
+      "title": "高温作业专用服装设计",
+      "file": "cumcm/2018/2018-A.pdf",
+      "topics": [
+       "传热",
+       "优化"
+      ],
+      "pages": 2,
+      "source": "https://www.mcm.edu.cn/html_cn/node/7cec7725b9a0ea07b4dfd175e8042c33.html",
+      "source_note": "题目原文取自公开镜像仓库 CosmicLinks/cumcm-problems；官方包为 RAR5，本机无解压能力"
+     },
+     {
+      "id": "B",
+      "title": "智能 RGV 的动态调度策略",
+      "file": "cumcm/2018/2018-B.pdf",
+      "topics": [
+       "离散事件仿真",
+       "优化"
+      ],
+      "pages": 2,
+      "source": "https://www.mcm.edu.cn/html_cn/node/7cec7725b9a0ea07b4dfd175e8042c33.html",
+      "source_note": "题目原文取自公开镜像仓库 CosmicLinks/cumcm-problems；官方包为 RAR5，本机无解压能力"
+     },
+     {
+      "id": "C",
+      "title": "大型百货商场会员画像描绘",
+      "file": "cumcm/2018/2018-C.pdf",
+      "topics": [
+       "数据分析",
+       "聚类"
+      ],
+      "pages": 1,
+      "source": "https://www.mcm.edu.cn/html_cn/node/7cec7725b9a0ea07b4dfd175e8042c33.html",
+      "source_note": "题目原文取自公开镜像仓库 CosmicLinks/cumcm-problems；官方包为 RAR5，本机无解压能力"
+     },
+     {
+      "id": "D",
+      "title": "汽车总装线的配置问题",
+      "file": "cumcm/2018/2018-D.pdf",
+      "topics": [
+       "整数规划",
+       "优化"
+      ],
+      "pages": 2,
+      "source": "https://www.mcm.edu.cn/html_cn/node/7cec7725b9a0ea07b4dfd175e8042c33.html",
+      "source_note": "题目原文取自公开镜像仓库 CosmicLinks/cumcm-problems；官方包为 RAR5，本机无解压能力"
+     }
+    ],
+    "2019": [
+     {
+      "id": "A",
+      "title": "高压油管的压力控制",
+      "file": "cumcm/2019/2019-A.pdf",
+      "topics": [
+       "微分方程",
+       "优化"
+      ],
+      "pages": 3,
+      "source": "https://www.mcm.edu.cn/html_cn/node/b0ae8510b9ec0cc0deb2266d2de19ecb.html",
+      "source_note": "题目原文取自公开镜像仓库 CosmicLinks/cumcm-problems；官方包为 RAR5，本机无解压能力"
+     },
+     {
+      "id": "B",
+      "title": "“同心协力”策略研究",
+      "file": "cumcm/2019/2019-B.pdf",
+      "topics": [
+       "力学建模",
+       "仿真"
+      ],
+      "pages": 2,
+      "source": "https://www.mcm.edu.cn/html_cn/node/b0ae8510b9ec0cc0deb2266d2de19ecb.html",
+      "source_note": "题目原文取自公开镜像仓库 CosmicLinks/cumcm-problems；官方包为 RAR5，本机无解压能力"
+     },
+     {
+      "id": "C",
+      "title": "机场的出租车问题",
+      "file": "cumcm/2019/2019-C.pdf",
+      "topics": [
+       "排队论",
+       "优化"
+      ],
+      "pages": 1,
+      "source": "https://www.mcm.edu.cn/html_cn/node/b0ae8510b9ec0cc0deb2266d2de19ecb.html",
+      "source_note": "题目原文取自公开镜像仓库 CosmicLinks/cumcm-problems；官方包为 RAR5，本机无解压能力"
+     },
+     {
+      "id": "D",
+      "title": "空气质量数据的校准",
+      "file": "cumcm/2019/2019-D.pdf",
+      "topics": [
+       "统计回归"
+      ],
+      "pages": 1,
+      "source": "https://www.mcm.edu.cn/html_cn/node/b0ae8510b9ec0cc0deb2266d2de19ecb.html",
+      "source_note": "题目原文取自公开镜像仓库 CosmicLinks/cumcm-problems；官方包为 RAR5，本机无解压能力"
+     },
+     {
+      "id": "E",
+      "title": "“薄利多销”分析",
+      "file": "cumcm/2019/2019-E.pdf",
+      "topics": [
+       "经济模型",
+       "优化"
+      ],
+      "pages": 1,
+      "source": "https://www.mcm.edu.cn/html_cn/node/b0ae8510b9ec0cc0deb2266d2de19ecb.html",
+      "source_note": "题目原文取自公开镜像仓库 CosmicLinks/cumcm-problems；官方包为 RAR5，本机无解压能力"
+     }
+    ],
+    "2020": [
+     {
+      "id": "A",
+      "title": "炉温曲线",
+      "file": "cumcm/2020/2020-A.pdf",
+      "topics": [
+       "微分方程",
+       "优化"
+      ],
+      "pages": 4,
+      "source": "https://www.mcm.edu.cn/html_cn/node/10405905647c52abfd6377c0311632b5.html",
+      "source_note": "题目原文取自公开镜像仓库 CosmicLinks/cumcm-problems；官方包为 RAR5，本机无解压能力"
+     },
+     {
+      "id": "B",
+      "title": "穿越沙漠",
+      "file": "cumcm/2020/2020-B.pdf",
+      "topics": [
+       "动态规划",
+       "博弈"
+      ],
+      "pages": 2,
+      "source": "https://www.mcm.edu.cn/html_cn/node/10405905647c52abfd6377c0311632b5.html",
+      "source_note": "题目原文取自公开镜像仓库 CosmicLinks/cumcm-problems；官方包为 RAR5，本机无解压能力"
+     },
+     {
+      "id": "C",
+      "title": "中小微企业的信贷决策",
+      "file": "cumcm/2020/2020-C.pdf",
+      "topics": [
+       "评价",
+       "决策"
+      ],
+      "pages": 2,
+      "source": "https://www.mcm.edu.cn/html_cn/node/10405905647c52abfd6377c0311632b5.html",
+      "source_note": "题目原文取自公开镜像仓库 CosmicLinks/cumcm-problems；官方包为 RAR5，本机无解压能力"
+     },
+     {
+      "id": "D",
+      "title": "接触式轮廓仪的自动标注",
+      "file": "cumcm/2020/2020-D.pdf",
+      "topics": [
+       "几何",
+       "优化"
+      ],
+      "pages": 3,
+      "source": "https://www.mcm.edu.cn/html_cn/node/10405905647c52abfd6377c0311632b5.html",
+      "source_note": "题目原文取自公开镜像仓库 CosmicLinks/cumcm-problems；官方包为 RAR5，本机无解压能力"
+     },
+     {
+      "id": "E",
+      "title": "校园供水系统智能管理",
+      "file": "cumcm/2020/2020-E.pdf",
+      "topics": [
+       "数据分析",
+       "优化"
+      ],
+      "pages": 2,
+      "source": "https://www.mcm.edu.cn/html_cn/node/10405905647c52abfd6377c0311632b5.html",
+      "source_note": "题目原文取自公开镜像仓库 CosmicLinks/cumcm-problems；官方包为 RAR5，本机无解压能力"
+     }
+    ],
+    "2021": [
+     {
+      "id": "A",
+      "title": "“FAST”主动反射面的形状调节",
+      "file": "cumcm/2021/2021-A.pdf",
+      "topics": [
+       "几何优化"
+      ],
+      "pages": 3,
+      "source": "https://www.mcm.edu.cn/html_cn/node/90d223833c1eb50f899aa096a66c6896.html",
+      "source_note": "题目原文取自公开镜像仓库 CosmicLinks/cumcm-problems；官方包为 RAR5，本机无解压能力"
+     },
+     {
+      "id": "B",
+      "title": "乙醇偶合制备 C4 烯烃",
+      "file": "cumcm/2021/2021-B.pdf",
+      "topics": [
+       "数据拟合",
+       "优化"
+      ],
+      "pages": 2,
+      "source": "https://www.mcm.edu.cn/html_cn/node/90d223833c1eb50f899aa096a66c6896.html",
+      "source_note": "题目原文取自公开镜像仓库 CosmicLinks/cumcm-problems；官方包为 RAR5，本机无解压能力"
+     },
+     {
+      "id": "C",
+      "title": "生产企业原材料的订购与运输",
+      "file": "cumcm/2021/2021-C.pdf",
+      "topics": [
+       "供应链",
+       "优化"
+      ],
+      "pages": 2,
+      "source": "https://www.mcm.edu.cn/html_cn/node/90d223833c1eb50f899aa096a66c6896.html",
+      "source_note": "题目原文取自公开镜像仓库 CosmicLinks/cumcm-problems；官方包为 RAR5，本机无解压能力"
+     },
+     {
+      "id": "D",
+      "title": "连铸切割的在线优化",
+      "file": "cumcm/2021/2021-D.pdf",
+      "topics": [
+       "优化"
+      ],
+      "pages": 2,
+      "source": "https://www.mcm.edu.cn/html_cn/node/90d223833c1eb50f899aa096a66c6896.html",
+      "source_note": "题目原文取自公开镜像仓库 CosmicLinks/cumcm-problems；官方包为 RAR5，本机无解压能力"
+     },
+     {
+      "id": "E",
+      "title": "中药材的鉴别",
+      "file": "cumcm/2021/2021-E.pdf",
+      "topics": [
+       "分类",
+       "判别分析"
+      ],
+      "pages": 3,
+      "source": "https://www.mcm.edu.cn/html_cn/node/90d223833c1eb50f899aa096a66c6896.html",
+      "source_note": "题目原文取自公开镜像仓库 CosmicLinks/cumcm-problems；官方包为 RAR5，本机无解压能力"
+     }
+    ],
+    "2022": [
+     {
+      "id": "A",
+      "title": "波浪能最大输出功率设计",
+      "file": "cumcm/2022/2022-A.pdf",
+      "topics": [
+       "力学建模",
+       "优化"
+      ],
+      "pages": 3,
+      "source": "https://www.mcm.edu.cn/html_cn/node/388239ded4b057d37b7b8e51e33fe903.html",
+      "source_note": "题目原文取自公开镜像仓库 CosmicLinks/cumcm-problems；官方包为 RAR5，本机无解压能力"
+     },
+     {
+      "id": "B",
+      "title": "无人机遂行编队飞行中的纯方位无源定位",
+      "file": "cumcm/2022/2022-B.pdf",
+      "topics": [
+       "几何",
+       "优化"
+      ],
+      "pages": 2,
+      "source": "https://www.mcm.edu.cn/html_cn/node/388239ded4b057d37b7b8e51e33fe903.html",
+      "source_note": "题目原文取自公开镜像仓库 CosmicLinks/cumcm-problems；官方包为 RAR5，本机无解压能力"
+     },
+     {
+      "id": "C",
+      "title": "古代玻璃制品的成分分析与鉴别",
+      "file": "cumcm/2022/2022-C.pdf",
+      "topics": [
+       "聚类",
+       "分类"
+      ],
+      "pages": 2,
+      "source": "https://www.mcm.edu.cn/html_cn/node/388239ded4b057d37b7b8e51e33fe903.html",
+      "source_note": "题目原文取自公开镜像仓库 CosmicLinks/cumcm-problems；官方包为 RAR5，本机无解压能力"
+     },
+     {
+      "id": "D",
+      "title": "气象报文信息卫星通信传输",
+      "file": "cumcm/2022/2022-D.pdf",
+      "topics": [
+       "图论",
+       "优化"
+      ],
+      "pages": 2,
+      "source": "https://www.mcm.edu.cn/html_cn/node/388239ded4b057d37b7b8e51e33fe903.html",
+      "source_note": "题目原文取自公开镜像仓库 CosmicLinks/cumcm-problems；官方包为 RAR5，本机无解压能力"
+     },
+     {
+      "id": "E",
+      "title": "小批量物料的生产安排",
+      "file": "cumcm/2022/2022-E.pdf",
+      "topics": [
+       "调度优化"
+      ],
+      "pages": 2,
+      "source": "https://www.mcm.edu.cn/html_cn/node/388239ded4b057d37b7b8e51e33fe903.html",
+      "source_note": "题目原文取自公开镜像仓库 CosmicLinks/cumcm-problems；官方包为 RAR5，本机无解压能力"
+     }
+    ],
+    "2023": [
+     {
+      "id": "A",
+      "title": "定日镜场的优化设计",
+      "file": "cumcm/2023/2023-A.pdf",
+      "topics": [
+       "几何优化"
+      ],
+      "pages": 4,
+      "source": "https://www.mcm.edu.cn/html_cn/node/c74d72127066f510a5723a94b5323a26.html",
+      "source_note": "题目原文取自公开镜像仓库 CosmicLinks/cumcm-problems；官方包为 RAR5，本机无解压能力"
+     },
+     {
+      "id": "B",
+      "title": "多波束测线问题",
+      "file": "cumcm/2023/2023-B.pdf",
+      "topics": [
+       "几何优化"
+      ],
+      "pages": 3,
+      "source": "https://www.mcm.edu.cn/html_cn/node/c74d72127066f510a5723a94b5323a26.html",
+      "source_note": "题目原文取自公开镜像仓库 CosmicLinks/cumcm-problems；官方包为 RAR5，本机无解压能力"
+     },
+     {
+      "id": "C",
+      "title": "蔬菜类商品的自动定价与补货决策",
+      "file": "cumcm/2023/2023-C.pdf",
+      "topics": [
+       "预测",
+       "优化"
+      ],
+      "pages": 1,
+      "source": "https://www.mcm.edu.cn/html_cn/node/c74d72127066f510a5723a94b5323a26.html",
+      "source_note": "题目原文取自公开镜像仓库 CosmicLinks/cumcm-problems；官方包为 RAR5，本机无解压能力"
+     },
+     {
+      "id": "D",
+      "title": "圈养湖羊的空间利用率",
+      "file": "cumcm/2023/2023-D.pdf",
+      "topics": [
+       "优化",
+       "仿真"
+      ],
+      "pages": 2,
+      "source": "https://www.mcm.edu.cn/html_cn/node/c74d72127066f510a5723a94b5323a26.html",
+      "source_note": "题目原文取自公开镜像仓库 CosmicLinks/cumcm-problems；官方包为 RAR5，本机无解压能力"
+     },
+     {
+      "id": "E",
+      "title": "黄河水沙监测数据分析",
+      "file": "cumcm/2023/2023-E.pdf",
+      "topics": [
+       "数据分析"
+      ],
+      "pages": 1,
+      "source": "https://www.mcm.edu.cn/html_cn/node/c74d72127066f510a5723a94b5323a26.html",
+      "source_note": "题目原文取自公开镜像仓库 CosmicLinks/cumcm-problems；官方包为 RAR5，本机无解压能力"
+     }
+    ],
+    "2024": [
+     {
+      "id": "A",
+      "title": "“板凳龙”闹元宵",
+      "file": "cumcm/2024/2024-A.pdf",
+      "topics": [
+       "几何",
+       "仿真"
+      ],
+      "pages": 3,
+      "source": "https://www.mcm.edu.cn/html_cn/node/a0c1fb5c31d43551f08cd8ad16870444.html",
+      "source_note": "官方年度压缩包"
+     },
+     {
+      "id": "B",
+      "title": "生产过程中的决策问题",
+      "file": "cumcm/2024/2024-B.pdf",
+      "topics": [
+       "决策优化"
+      ],
+      "pages": 2,
+      "source": "https://www.mcm.edu.cn/html_cn/node/a0c1fb5c31d43551f08cd8ad16870444.html",
+      "source_note": "官方年度压缩包"
+     },
+     {
+      "id": "C",
+      "title": "农作物的种植策略",
+      "file": "cumcm/2024/2024-C.pdf",
+      "topics": [
+       "规划",
+       "优化"
+      ],
+      "pages": 1,
+      "source": "https://www.mcm.edu.cn/html_cn/node/a0c1fb5c31d43551f08cd8ad16870444.html",
+      "source_note": "官方年度压缩包"
+     },
+     {
+      "id": "D",
+      "title": "反潜航空深弹命中概率问题",
+      "file": "cumcm/2024/2024-D.pdf",
+      "topics": [
+       "概率",
+       "仿真"
+      ],
+      "pages": 2,
+      "source": "https://www.mcm.edu.cn/html_cn/node/a0c1fb5c31d43551f08cd8ad16870444.html",
+      "source_note": "官方年度压缩包"
+     },
+     {
+      "id": "E",
+      "title": "交通流量管控",
+      "file": "cumcm/2024/2024-E.pdf",
+      "topics": [
+       "优化",
+       "交通仿真"
+      ],
+      "pages": 1,
+      "source": "https://www.mcm.edu.cn/html_cn/node/a0c1fb5c31d43551f08cd8ad16870444.html",
+      "source_note": "官方年度压缩包"
+     }
+    ],
+    "2025": [
+     {
+      "id": "A",
+      "title": "烟幕干扰弹的投放策略",
+      "file": "cumcm/2025/2025-A.pdf",
+      "topics": [
+       "优化",
+       "仿真"
+      ],
+      "pages": 1,
+      "source": "https://www.mcm.edu.cn/html_cn/node/03c91a444e62eee81a3740fa97a461a6.html",
+      "source_note": "官方年度压缩包"
+     },
+     {
+      "id": "B",
+      "title": "碳化硅外延层厚度的确定",
+      "file": "cumcm/2025/2025-B.pdf",
+      "topics": [
+       "数据分析",
+       "反问题"
+      ],
+      "pages": 2,
+      "source": "https://www.mcm.edu.cn/html_cn/node/03c91a444e62eee81a3740fa97a461a6.html",
+      "source_note": "官方年度压缩包"
+     },
+     {
+      "id": "C",
+      "title": "NIPT 的时点选择与胎儿的异常判定",
+      "file": "cumcm/2025/2025-C.pdf",
+      "topics": [
+       "统计",
+       "决策"
+      ],
+      "pages": 2,
+      "source": "https://www.mcm.edu.cn/html_cn/node/03c91a444e62eee81a3740fa97a461a6.html",
+      "source_note": "官方年度压缩包"
+     },
+     {
+      "id": "D",
+      "title": "矿井突水水流漫延模型与逃生方案",
+      "file": "cumcm/2025/2025-D.pdf",
+      "topics": [
+       "仿真",
+       "图论"
+      ],
+      "pages": 2,
+      "source": "https://www.mcm.edu.cn/html_cn/node/03c91a444e62eee81a3740fa97a461a6.html",
+      "source_note": "官方年度压缩包"
+     },
+     {
+      "id": "E",
+      "title": "AI 辅助智能体测",
+      "file": "cumcm/2025/2025-E.pdf",
+      "topics": [
+       "视觉",
+       "数据分析"
+      ],
+      "pages": 1,
+      "source": "https://www.mcm.edu.cn/html_cn/node/03c91a444e62eee81a3740fa97a461a6.html",
+      "source_note": "官方年度压缩包"
+     }
+    ],
+    "2026": [
+     {
+      "id": "A",
+      "title": "药材的烘干问题",
+      "file": "cumcm/2026/2026-A.pdf",
+      "topics": [
+       "传热",
+       "优化"
+      ],
+      "pages": 4,
+      "source": "https://www.mcm.edu.cn/html_cn/node/27b6e148f8113f09b0269f64a02629fb.html",
+      "source_note": "官方年度压缩包"
+     },
+     {
+      "id": "B",
+      "title": "无线电干扰源的快速自动定位与清除",
+      "file": "cumcm/2026/2026-B.pdf",
+      "topics": [
+       "定位",
+       "优化"
+      ],
+      "pages": 4,
+      "source": "https://www.mcm.edu.cn/html_cn/node/27b6e148f8113f09b0269f64a02629fb.html",
+      "source_note": "官方年度压缩包"
+     },
+     {
+      "id": "C",
+      "title": "微网与外部电网电力调控策略",
+      "file": "cumcm/2026/2026-C.pdf",
+      "topics": [
+       "优化",
+       "调度"
+      ],
+      "pages": 3,
+      "source": "https://www.mcm.edu.cn/html_cn/node/27b6e148f8113f09b0269f64a02629fb.html",
+      "source_note": "官方年度压缩包"
+     },
+     {
+      "id": "D",
+      "title": "时频冲突检测与消解",
+      "file": "cumcm/2026/2026-D.pdf",
+      "topics": [
+       "算法设计",
+       "优化"
+      ],
+      "pages": 2,
+      "source": "https://www.mcm.edu.cn/html_cn/node/27b6e148f8113f09b0269f64a02629fb.html",
+      "source_note": "官方年度压缩包"
+     },
+     {
+      "id": "E",
+      "title": "SEM 广告投放策略",
+      "file": "cumcm/2026/2026-E.pdf",
+      "topics": [
+       "优化",
+       "决策"
+      ],
+      "pages": 2,
+      "source": "https://www.mcm.edu.cn/html_cn/node/27b6e148f8113f09b0269f64a02629fb.html",
+      "source_note": "官方年度压缩包"
+     }
+    ]
+   }
+  },
+  "mcm-icm": {
+   "name": "美国大学生数学建模竞赛（美赛 MCM/ICM）",
+   "organizer": "COMAP",
+   "site": "https://www.comap.com/contests/mcm-icm",
+   "note": "MCM：A/B/C；ICM：D/E/F；英文题目原文。",
+   "years": {}
+  },
+  "shuweibei": {
+   "name": "数维杯大学生数学建模挑战赛",
+   "organizer": "内蒙古创新教育学会",
+   "site": "https://www.nmmcm.org.cn/",
+   "note": "分秋季赛与国际赛，题目数为 2–3 道。",
+   "years": {}
+  }
+ }
+}
