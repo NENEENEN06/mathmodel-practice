@@ -6,11 +6,19 @@
 - `data/` —— 公用小数据集（超过 10 MB 的别放，走 `data/attachments/`）
 - `templates/` —— 表格、图表、命名规范的说明
 
-## 已有模型
+## 模型资料库
 
-| 文件 | 类型 | 适用场景 | 出处 |
-| --- | --- | --- | --- |
-| `models/topsis.py` | 评价类 | 多指标方案排序（优劣解距离法） | 之前学习时写的，已跑通 |
-| `models/层次分析法.ipynb` | 评价类 | 主观权重确定（AHP，含一致性检验） | 同上 |
+`models/` 是**分类整理好的模型实现库**（每个模型都能直接跑，带 README 说明使用场景、输入输出和坑）：
 
-> 新增模型先放进 `workspace/<你的名字>/` 试，验证过再搬到这儿，并在上表登记。
+| 目录 | 用途 |
+| --- | --- |
+| `models/01-evaluation/` | 评价类：AHP、熵权法、TOPSIS、模糊综合评价 |
+| `models/02-forecasting/` | 预测类：灰色 GM(1,1)、ARIMA、回归/岭回归 |
+| `models/03-optimization/` | 优化类：线性/整数规划、遗传算法、模拟退火、粒子群 |
+| `models/04-graph/` | 图论：最短路、最大流、MST、中心性、指派 |
+| `models/05-simulation/` | 仿真：ODE 数值解、蒙特卡洛、排队仿真 |
+| `models/06-statistics/` | 统计：假设检验、ANOVA、相关、聚类、PCA |
+
+入口见 [`models/README.md`](models/README.md)（含依赖、收录清单、值得收藏的开源项目）。
+
+> 用的时候**复制到当次练习的 `code/` 里改**，别直接改公共库。
