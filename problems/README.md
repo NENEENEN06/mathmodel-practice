@@ -26,10 +26,10 @@ python3 scripts/download_attachments.py --all
 | 竞赛 | 全称 | 年份 | 年份范围 | 题量 |
 | --- | --- | --- | --- | --- |
 | `cumcm` | 全国大学生数学建模竞赛（国赛 CUMCM） | 11 | 2016–2026 | 52 |
-| `mcm-icm` | 美国大学生数学建模竞赛（美赛 MCM/ICM） | — | — | 0 |
-| `shuweibei` | 数维杯大学生数学建模挑战赛 | — | — | 0 |
+| `mcm-icm` | 美国大学生数学建模竞赛（美赛 MCM/ICM） | 6 | 2021–2026 | 36 |
+| `shuweibei` | 数维杯大学生数学建模挑战赛 | 7 | 2019–2026 | 20 |
 
-**合计 52 道题。**
+**合计 108 道题。**
 
 ## 全国大学生数学建模竞赛（国赛 CUMCM）
 
@@ -143,4 +143,137 @@ python3 scripts/download_attachments.py --all
 | B | 小区开放对道路通行的影响 | 评价、交通仿真 | [打开](cumcm/2016/2016-B.pdf) |
 | C | 电池剩余放电时间预测 | 预测、数据拟合 | [打开](cumcm/2016/2016-C.pdf) |
 | D | 风电场运行状况分析及优化 | 数据分析、优化 | [打开](cumcm/2016/2016-D.pdf) |
+
+## 美国大学生数学建模竞赛（美赛 MCM/ICM）
+
+- 官网：https://www.comap.com/contests/mcm-icm
+- 主办：COMAP
+- 说明：MCM：A（连续型）/B（离散型）/C（数据型）；ICM：D/E/F。英文题目原文，2021–2026 共 36 题；绝大多数来自 COMAP 官方下载，个别文件官方端点传输中断，改用公开镜像。
+
+### 2026 年（6 题）
+
+| 题号 | 标题 | 主题 | 题目原文 |
+| --- | --- | --- | --- |
+| A | Modeling Smartphone Battery Drain | MCM | [打开](mcm-icm/2026/2026-A.pdf) |
+| B | Creating a Moon Colony Using a Space Elevator System | MCM | [打开](mcm-icm/2026/2026-B.pdf) |
+| C | Data With The Stars | MCM | [打开](mcm-icm/2026/2026-C.pdf) |
+| D | Managing Sports for Success | ICM | [打开](mcm-icm/2026/2026-D.pdf) |
+| E | Passive Solar Shading | ICM | [打开](mcm-icm/2026/2026-E.pdf) |
+| F | To Gen-AI, or Not To Gen-AI (or how to Gen-AI)? That is the Question! | ICM | [打开](mcm-icm/2026/2026-F.pdf) |
+
+### 2025 年（6 题）
+
+| 题号 | 标题 | 主题 | 题目原文 |
+| --- | --- | --- | --- |
+| A | Testing Time: The Constant Wear On Stairs | MCM | [打开](mcm-icm/2025/2025-A.pdf) |
+| B | Managing Sustainable Tourism | MCM | [打开](mcm-icm/2025/2025-B.pdf) |
+| C | Models for Olympic Medal Tables | MCM | [打开](mcm-icm/2025/2025-C.pdf) |
+| D | A Roadmap to a Better City | ICM | [打开](mcm-icm/2025/2025-D.pdf) |
+| E | Making Room for Agriculture | ICM | [打开](mcm-icm/2025/2025-E.pdf) |
+| F | Cyber Strong? | ICM | [打开](mcm-icm/2025/2025-F.pdf) |
+
+### 2024 年（6 题）
+
+| 题号 | 标题 | 主题 | 题目原文 |
+| --- | --- | --- | --- |
+| A | Resource Availability and Sex Ratios | MCM | [打开](mcm-icm/2024/2024-A.pdf) |
+| B | Searching for Submersibles | MCM | [打开](mcm-icm/2024/2024-B.pdf) |
+| C | Momentum in Tennis | MCM | [打开](mcm-icm/2024/2024-C.pdf) |
+| D | Great Lakes Water Problem | ICM | [打开](mcm-icm/2024/2024-D.pdf) |
+| E | Sustainability of Property Insurance | ICM | [打开](mcm-icm/2024/2024-E.pdf) |
+| F | Reducing Illegal Wildlife Trade | ICM | [打开](mcm-icm/2024/2024-F.pdf) |
+
+### 2023 年（6 题）
+
+| 题号 | 标题 | 主题 | 题目原文 |
+| --- | --- | --- | --- |
+| A | Drought-Stricken Plant Communities | MCM | [打开](mcm-icm/2023/2023-A.pdf) |
+| B | Reimagining Maasai Mara | MCM | [打开](mcm-icm/2023/2023-B.pdf) |
+| C | Predicting Wordle Results | MCM | [打开](mcm-icm/2023/2023-C.pdf) |
+| D | Prioritizing the UN Sustainability Goals | ICM | [打开](mcm-icm/2023/2023-D.pdf) |
+| E | Light Pollution | ICM | [打开](mcm-icm/2023/2023-E.pdf) |
+| F | Green GDP | ICM | [打开](mcm-icm/2023/2023-F.pdf) |
+
+### 2022 年（6 题）
+
+| 题号 | 标题 | 主题 | 题目原文 |
+| --- | --- | --- | --- |
+| A | Power Profile of a Cyclist | MCM | [打开](mcm-icm/2022/2022-A.pdf) |
+| B | Water and Hydroelectric Power Sharing | MCM | [打开](mcm-icm/2022/2022-B.pdf) |
+| C | Trading Strategies | MCM | [打开](mcm-icm/2022/2022-C.pdf) |
+| D | Data Paralysis? Use Our Analysis! | ICM | [打开](mcm-icm/2022/2022-D.pdf) |
+| E | Forestry for Carbon Sequestration | ICM | [打开](mcm-icm/2022/2022-E.pdf) |
+| F | All for One and One (Space) for All! | ICM | [打开](mcm-icm/2022/2022-F.pdf) |
+
+### 2021 年（6 题）
+
+| 题号 | 标题 | 主题 | 题目原文 |
+| --- | --- | --- | --- |
+| A | Fungi | MCM | [打开](mcm-icm/2021/2021-A.pdf) |
+| B | Fighting Wildfires | MCM | [打开](mcm-icm/2021/2021-B.pdf) |
+| C | Confirming the Buzz about Hornets | MCM | [打开](mcm-icm/2021/2021-C.pdf) |
+| D | The Influence of Music | ICM | [打开](mcm-icm/2021/2021-D.pdf) |
+| E | Re-Optimizing Food Systems | ICM | [打开](mcm-icm/2021/2021-E.pdf) |
+| F | Checking the Pulse and Temperature of Higher Education | ICM | [打开](mcm-icm/2021/2021-F.pdf) |
+
+## 数维杯大学生数学建模挑战赛
+
+- 官网：https://www.nmmcm.org.cn/
+- 主办：内蒙古创新教育学会
+- 说明：分春季赛（国内赛）与秋季赛（国际赛）。官方只公开当年题目，历史真题多为网盘/平台外链，故本库为**尽力收集**：来源含公开仓库、转载重排、官网页面存档，逐份在「备注」里标明；缺口见 shuweibei/SOURCES_AND_GAPS.md。
+
+### 2026 年（3 题）
+
+| 题号 | 标题 | 主题 | 题目原文 |
+| --- | --- | --- | --- |
+| A | 抱轨式磁浮列车的悬浮电磁铁故障检测问题 | 春季赛、国赛 | [打开](shuweibei/2026-春季赛/2026-春季赛-A.pdf) |
+| B | 智能办公场景下多源异构文件识别与治理优化 | 春季赛、国赛 | [打开](shuweibei/2026-春季赛/2026-春季赛-B.pdf) |
+| C | 我国碳排放数据分析与研究 | 春季赛、国赛 | [打开](shuweibei/2026-春季赛/2026-春季赛-C.pdf) |
+
+### 2025 年（2 题）
+
+| 题号 | 标题 | 主题 | 题目原文 |
+| --- | --- | --- | --- |
+| A | 空中芭蕾——蹦床运动的力学行为分析 | 春季赛、国赛 | [打开](shuweibei/2025-春季赛/2025-春季赛-A.pdf) |
+| B | Research on Crop Leaf Disease | 秋季赛、国际赛 | [打开](shuweibei/2025-秋季赛/2025-秋季赛-B.pdf) |
+
+### 2024 年（4 题）
+
+| 题号 | 标题 | 主题 | 题目原文 |
+| --- | --- | --- | --- |
+| A | Frequency Estimation Problems in Aircraft Laser Velocimetry | 秋季赛、国际赛 | [打开](shuweibei/2024-秋季赛/2024-秋季赛-A.pdf) |
+| B | Research on the Collaborative Estimation Method for Spatial Variables | 秋季赛、国际赛 | [打开](shuweibei/2024-秋季赛/2024-秋季赛-B.pdf) |
+| C | Modeling of pulsar timing noise deduction and atmospheric time delay deduction of time signals | 秋季赛、国际赛 | [打开](shuweibei/2024-秋季赛/2024-秋季赛-C.pdf) |
+| D | Evaluation of Urban Resilience and Sustainable Development Capacity | 秋季赛、国际赛 | [打开](shuweibei/2024-秋季赛/2024-秋季赛-D.pdf) |
+
+### 2022 年（3 题）
+
+| 题号 | 标题 | 主题 | 题目原文 |
+| --- | --- | --- | --- |
+| A | 银行效率评价与破产成因分析 | 春季赛、国赛 | [打开](shuweibei/2022-春季赛/2022-春季赛-A.pdf) |
+| B | 大规模新型冠状病毒疫情最优应对策略研究 | 春季赛、国赛 | [打开](shuweibei/2022-春季赛/2022-春季赛-B.pdf) |
+| C | 电动汽车充电站的部署优化策略 | 春季赛、国赛 | [打开](shuweibei/2022-春季赛/2022-春季赛-C.pdf) |
+
+### 2021 年（6 题）
+
+| 题号 | 标题 | 主题 | 题目原文 |
+| --- | --- | --- | --- |
+| A | 外卖骑手的送餐危机 | 春季赛、国赛 | [打开](shuweibei/2021-春季赛/2021-春季赛-A.pdf) |
+| B | 中小城市地铁运营与建设优化设计 | 春季赛、国赛 | [打开](shuweibei/2021-春季赛/2021-春季赛-B.pdf) |
+| B | Analysis and prediction for extreme precipitation (2021 “ShuWei Cup” B) | 秋季赛、国际赛 | [打开](shuweibei/2021-秋季赛/2021-秋季赛-B.pdf) |
+| C | 运动会优化比赛模式探索 | 春季赛、国赛 | [打开](shuweibei/2021-春季赛/2021-春季赛-C.pdf) |
+| C | Future development plans for tourism under the Corona-virus disease (2021 “ShuWei Cup” C) | 秋季赛、国际赛 | [打开](shuweibei/2021-秋季赛/2021-秋季赛-C.pdf) |
+| D | Model analysis of box office fluctuations in the 2021 movie market (2021 “ShuWei Cup” D) | 秋季赛、国际赛 | [打开](shuweibei/2021-秋季赛/2021-秋季赛-D.pdf) |
+
+### 2020 年（1 题）
+
+| 题号 | 标题 | 主题 | 题目原文 |
+| --- | --- | --- | --- |
+| A/B/C(全套) | 2020“数维杯”大学生数学建模竞赛赛题题目（A题 舆情监测情感倾向分析建模 等） | 春季赛、国赛 | [打开](shuweibei/2020-春季赛/2020-春季赛-全套.pdf) |
+
+### 2019 年（1 题）
+
+| 题号 | 标题 | 主题 | 题目原文 |
+| --- | --- | --- | --- |
+| A/B/C(全套) | 2019年数维杯大学生数学建模竞赛题目（A题 我国省际生态环境与经济交互状况的综合评价 等） | 春季赛、国赛 | [打开](shuweibei/2019-春季赛/2019-春季赛-全套.pdf) |
 <!-- problems-index:end -->

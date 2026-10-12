@@ -67,7 +67,16 @@
 
 ## 真题库
 
-题目原文（PDF）在 `problems/` 里，完整清单见 [problems/README.md](problems/README.md)。
+题目原文（PDF）在 `problems/` 里，完整清单见 [problems/README.md](problems/README.md)。目前 **108 道题**：
+
+| 竞赛 | 年份 | 题量 | 来源说明 |
+| --- | --- | --- | --- |
+| 国赛 CUMCM | 2016–2026 | 52 | 竞赛官网年度赛题包（2016–2023 官方包是 RAR5，题目取自公开镜像） |
+| 美赛 MCM/ICM | 2021–2026 | 36 | COMAP 官方下载为主，个别文件官方端点传输中断改用镜像 |
+| 数维杯 | 2019–2026 | 20 | 尽力收集：公开仓库 / 转载重排 / 官网页面存档，逐条标注来源 |
+
+- 每题一行来源与备注写在 `problems/meta.json` 里，索引里可查。
+- 数维杯官方只公开当年题目，历史真题缺口与可用链接见 [problems/shuweibei/SOURCES_AND_GAPS.md](problems/shuweibei/SOURCES_AND_GAPS.md)。
 
 附件数据（国赛每年几十到几百 MB）**不入库**，用脚本在本地下载：
 

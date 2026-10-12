@@ -651,15 +651,679 @@
    "name": "美国大学生数学建模竞赛（美赛 MCM/ICM）",
    "organizer": "COMAP",
    "site": "https://www.comap.com/contests/mcm-icm",
-   "note": "MCM：A/B/C；ICM：D/E/F；英文题目原文。",
-   "years": {}
+   "note": "MCM：A（连续型）/B（离散型）/C（数据型）；ICM：D/E/F。英文题目原文，2021–2026 共 36 题；绝大多数来自 COMAP 官方下载，个别文件官方端点传输中断，改用公开镜像。",
+   "years": {
+    "2021": [
+     {
+      "id": "A",
+      "title": "Fungi",
+      "file": "mcm-icm/2021/2021-A.pdf",
+      "topics": [
+       "MCM"
+      ],
+      "pages": 4,
+      "source": "https://www.contest.comap.com/undergraduate/contests/mcm/contests/2021/problems/2021_MCM_Problem_A.pdf",
+      "source_note": "COMAP 官方下载"
+     },
+     {
+      "id": "B",
+      "title": "Fighting Wildfires",
+      "file": "mcm-icm/2021/2021-B.pdf",
+      "topics": [
+       "MCM"
+      ],
+      "pages": 3,
+      "source": "https://www.contest.comap.com/undergraduate/contests/mcm/contests/2021/problems/2021_MCM_Problem_B.pdf",
+      "source_note": "COMAP 官方下载"
+     },
+     {
+      "id": "C",
+      "title": "Confirming the Buzz about Hornets",
+      "file": "mcm-icm/2021/2021-C.pdf",
+      "topics": [
+       "MCM"
+      ],
+      "pages": 4,
+      "source": "https://www.contest.comap.com/undergraduate/contests/mcm/contests/2021/problems/2021_MCM_Problem_C.pdf",
+      "source_note": "COMAP 官方下载"
+     },
+     {
+      "id": "D",
+      "title": "The Influence of Music",
+      "file": "mcm-icm/2021/2021-D.pdf",
+      "topics": [
+       "ICM"
+      ],
+      "pages": 5,
+      "source": "https://www.contest.comap.com/undergraduate/contests/mcm/contests/2021/problems/2021_ICM_Problem_D.pdf",
+      "source_note": "COMAP 官方下载"
+     },
+     {
+      "id": "E",
+      "title": "Re-Optimizing Food Systems",
+      "file": "mcm-icm/2021/2021-E.pdf",
+      "topics": [
+       "ICM"
+      ],
+      "pages": 2,
+      "source": "https://www.contest.comap.com/undergraduate/contests/mcm/contests/2021/problems/2021_ICM_Problem_E.pdf",
+      "source_note": "COMAP 官方下载"
+     },
+     {
+      "id": "F",
+      "title": "Checking the Pulse and Temperature of Higher Education",
+      "file": "mcm-icm/2021/2021-F.pdf",
+      "topics": [
+       "ICM"
+      ],
+      "pages": 2,
+      "source": "https://www.contest.comap.com/undergraduate/contests/mcm/contests/2021/problems/2021_ICM_Problem_F.pdf",
+      "source_note": "COMAP 官方下载"
+     }
+    ],
+    "2022": [
+     {
+      "id": "A",
+      "title": "Power Profile of a Cyclist",
+      "file": "mcm-icm/2022/2022-A.pdf",
+      "topics": [
+       "MCM"
+      ],
+      "pages": 3,
+      "source": "https://www.contest.comap.com/undergraduate/contests/mcm/contests/2022/problems/2022_MCM_Problem_A.pdf",
+      "source_note": "COMAP 官方下载"
+     },
+     {
+      "id": "B",
+      "title": "Water and Hydroelectric Power Sharing",
+      "file": "mcm-icm/2022/2022-B.pdf",
+      "topics": [
+       "MCM"
+      ],
+      "pages": 3,
+      "source": "https://www.contest.comap.com/undergraduate/contests/mcm/contests/2022/problems/2022_MCM_Problem_B.pdf",
+      "source_note": "COMAP 官方下载"
+     },
+     {
+      "id": "C",
+      "title": "Trading Strategies",
+      "file": "mcm-icm/2022/2022-C.pdf",
+      "topics": [
+       "MCM"
+      ],
+      "pages": 2,
+      "source": "https://www.contest.comap.com/undergraduate/contests/mcm/contests/2022/problems/2022_MCM_Problem_C.pdf",
+      "source_note": "COMAP 官方下载"
+     },
+     {
+      "id": "D",
+      "title": "Data Paralysis? Use Our Analysis!",
+      "file": "mcm-icm/2022/2022-D.pdf",
+      "topics": [
+       "ICM"
+      ],
+      "pages": 3,
+      "source": "https://www.contest.comap.com/undergraduate/contests/mcm/contests/2022/problems/2022_ICM_Problem_D.pdf",
+      "source_note": "COMAP 官方下载"
+     },
+     {
+      "id": "E",
+      "title": "Forestry for Carbon Sequestration",
+      "file": "mcm-icm/2022/2022-E.pdf",
+      "topics": [
+       "ICM"
+      ],
+      "pages": 3,
+      "source": "https://www.contest.comap.com/undergraduate/contests/mcm/contests/2022/problems/2022_ICM_Problem_E.pdf",
+      "source_note": "COMAP 官方下载"
+     },
+     {
+      "id": "F",
+      "title": "All for One and One (Space) for All!",
+      "file": "mcm-icm/2022/2022-F.pdf",
+      "topics": [
+       "ICM"
+      ],
+      "pages": 2,
+      "source": "https://www.contest.comap.com/undergraduate/contests/mcm/contests/2022/problems/2022_ICM_Problem_F.pdf",
+      "source_note": "COMAP 官方下载"
+     }
+    ],
+    "2023": [
+     {
+      "id": "A",
+      "title": "Drought-Stricken Plant Communities",
+      "file": "mcm-icm/2023/2023-A.pdf",
+      "topics": [
+       "MCM"
+      ],
+      "pages": 2,
+      "source": "https://www.comap.org/component/zoo/?task=callelement&format=raw&item_id=3326&element=71992483-3d3b-47dc-a146-3c901bdea04f&method=download",
+      "source_note": "镜像来源（GitHub mirror (dick20/MCM-ICM) via githubproxy.cc），官方链接当时不可用"
+     },
+     {
+      "id": "B",
+      "title": "Reimagining Maasai Mara",
+      "file": "mcm-icm/2023/2023-B.pdf",
+      "topics": [
+       "MCM"
+      ],
+      "pages": 2,
+      "source": "https://www.comap.org/component/zoo/?task=callelement&format=raw&item_id=3325&element=71992483-3d3b-47dc-a146-3c901bdea04f&method=download",
+      "source_note": "镜像来源（GitHub mirror (dick20/MCM-ICM) via githubproxy.cc），官方链接当时不可用"
+     },
+     {
+      "id": "C",
+      "title": "Predicting Wordle Results",
+      "file": "mcm-icm/2023/2023-C.pdf",
+      "topics": [
+       "MCM"
+      ],
+      "pages": 4,
+      "source": "https://www.comap.org/component/zoo/?task=callelement&format=raw&item_id=3324&element=71992483-3d3b-47dc-a146-3c901bdea04f&method=download",
+      "source_note": "镜像来源（GitHub mirror (dick20/MCM-ICM) via githubproxy.cc），官方链接当时不可用"
+     },
+     {
+      "id": "D",
+      "title": "Prioritizing the UN Sustainability Goals",
+      "file": "mcm-icm/2023/2023-D.pdf",
+      "topics": [
+       "ICM"
+      ],
+      "pages": 2,
+      "source": "https://www.comap.org/component/zoo/?task=callelement&format=raw&item_id=3323&element=71992483-3d3b-47dc-a146-3c901bdea04f&method=download",
+      "source_note": "镜像来源（GitHub mirror (dick20/MCM-ICM) via githubproxy.cc），官方链接当时不可用"
+     },
+     {
+      "id": "E",
+      "title": "Light Pollution",
+      "file": "mcm-icm/2023/2023-E.pdf",
+      "topics": [
+       "ICM"
+      ],
+      "pages": 2,
+      "source": "https://www.comap.org/component/zoo/?task=callelement&format=raw&item_id=3321&element=71992483-3d3b-47dc-a146-3c901bdea04f&method=download",
+      "source_note": "镜像来源（GitHub mirror (dick20/MCM-ICM) via githubproxy.cc），官方链接当时不可用"
+     },
+     {
+      "id": "F",
+      "title": "Green GDP",
+      "file": "mcm-icm/2023/2023-F.pdf",
+      "topics": [
+       "ICM"
+      ],
+      "pages": 2,
+      "source": "https://www.comap.org/component/zoo/?task=callelement&format=raw&item_id=3320&element=71992483-3d3b-47dc-a146-3c901bdea04f&method=download",
+      "source_note": "镜像来源（GitHub mirror (dick20/MCM-ICM) via githubproxy.cc），官方链接当时不可用"
+     }
+    ],
+    "2024": [
+     {
+      "id": "A",
+      "title": "Resource Availability and Sex Ratios",
+      "file": "mcm-icm/2024/2024-A.pdf",
+      "topics": [
+       "MCM"
+      ],
+      "pages": 4,
+      "source": "https://www.comap.org/component/zoo/?task=callelement&format=raw&item_id=3309&element=71992483-3d3b-47dc-a146-3c901bdea04f&method=download",
+      "source_note": "镜像来源（GitHub mirror (dick20/MCM-ICM) via githubproxy.cc），官方链接当时不可用"
+     },
+     {
+      "id": "B",
+      "title": "Searching for Submersibles",
+      "file": "mcm-icm/2024/2024-B.pdf",
+      "topics": [
+       "MCM"
+      ],
+      "pages": 4,
+      "source": "https://www.comap.org/component/zoo/?task=callelement&format=raw&item_id=3303&element=71992483-3d3b-47dc-a146-3c901bdea04f&method=download",
+      "source_note": "镜像来源（GitHub mirror (dick20/MCM-ICM) via githubproxy.cc），官方链接当时不可用"
+     },
+     {
+      "id": "C",
+      "title": "Momentum in Tennis",
+      "file": "mcm-icm/2024/2024-C.pdf",
+      "topics": [
+       "MCM"
+      ],
+      "pages": 8,
+      "source": "https://www.comap.org/component/zoo/?task=callelement&format=raw&item_id=3304&element=71992483-3d3b-47dc-a146-3c901bdea04f&method=download",
+      "source_note": "镜像来源（GitHub mirror (dick20/MCM-ICM) via githubproxy.cc），官方链接当时不可用"
+     },
+     {
+      "id": "D",
+      "title": "Great Lakes Water Problem",
+      "file": "mcm-icm/2024/2024-D.pdf",
+      "topics": [
+       "ICM"
+      ],
+      "pages": 5,
+      "source": "https://githubproxy.cc/https://raw.githubusercontent.com/dick20/MCM-ICM/master/2024%E7%BE%8E%E8%B5%9B%E7%89%B9%E7%AD%89%E5%A5%96/problems/2024_ICM_Problem_D_FINAL.pdf",
+      "source_note": "镜像来源（GitHub mirror (dick20/MCM-ICM) via githubproxy.cc），官方链接当时不可用"
+     },
+     {
+      "id": "E",
+      "title": "Sustainability of Property Insurance",
+      "file": "mcm-icm/2024/2024-E.pdf",
+      "topics": [
+       "ICM"
+      ],
+      "pages": 4,
+      "source": "https://www.comap.org/component/zoo/?task=callelement&format=raw&item_id=3306&element=71992483-3d3b-47dc-a146-3c901bdea04f&method=download",
+      "source_note": "镜像来源（GitHub mirror (dick20/MCM-ICM) via githubproxy.cc），官方链接当时不可用"
+     },
+     {
+      "id": "F",
+      "title": "Reducing Illegal Wildlife Trade",
+      "file": "mcm-icm/2024/2024-F.pdf",
+      "topics": [
+       "ICM"
+      ],
+      "pages": 4,
+      "source": "https://www.comap.org/component/zoo/?task=callelement&format=raw&item_id=3302&element=71992483-3d3b-47dc-a146-3c901bdea04f&method=download",
+      "source_note": "镜像来源（GitHub mirror (dick20/MCM-ICM) via githubproxy.cc），官方链接当时不可用"
+     }
+    ],
+    "2025": [
+     {
+      "id": "A",
+      "title": "Testing Time: The Constant Wear On Stairs",
+      "file": "mcm-icm/2025/2025-A.pdf",
+      "topics": [
+       "MCM"
+      ],
+      "pages": 2,
+      "source": "https://www.contest.comap.com/undergraduate/contests/mcm/contests/2025/problems/2025_MCM_Problem_A.pdf",
+      "source_note": "COMAP 官方下载"
+     },
+     {
+      "id": "B",
+      "title": "Managing Sustainable Tourism",
+      "file": "mcm-icm/2025/2025-B.pdf",
+      "topics": [
+       "MCM"
+      ],
+      "pages": 3,
+      "source": "https://www.contest.comap.com/undergraduate/contests/mcm/contests/2025/problems/2025_MCM_Problem_B.pdf",
+      "source_note": "COMAP 官方下载"
+     },
+     {
+      "id": "C",
+      "title": "Models for Olympic Medal Tables",
+      "file": "mcm-icm/2025/2025-C.pdf",
+      "topics": [
+       "MCM"
+      ],
+      "pages": 4,
+      "source": "https://githubproxy.cc/https://raw.githubusercontent.com/dick20/MCM-ICM/master/2025%E7%BE%8E%E8%B5%9B%E7%89%B9%E7%AD%89%E5%A5%96/problems/2025_MCM_Problem_C.pdf",
+      "source_note": "镜像来源（GitHub mirror (dick20/MCM-ICM) via githubproxy.cc），官方链接当时不可用"
+     },
+     {
+      "id": "D",
+      "title": "A Roadmap to a Better City",
+      "file": "mcm-icm/2025/2025-D.pdf",
+      "topics": [
+       "ICM"
+      ],
+      "pages": 5,
+      "source": "https://www.contest.comap.com/undergraduate/contests/mcm/contests/2025/problems/2025_ICM_Problem_D.pdf",
+      "source_note": "COMAP 官方下载"
+     },
+     {
+      "id": "E",
+      "title": "Making Room for Agriculture",
+      "file": "mcm-icm/2025/2025-E.pdf",
+      "topics": [
+       "ICM"
+      ],
+      "pages": 4,
+      "source": "https://www.contest.comap.com/undergraduate/contests/mcm/contests/2025/problems/2025_ICM_Problem_E.pdf",
+      "source_note": "COMAP 官方下载"
+     },
+     {
+      "id": "F",
+      "title": "Cyber Strong?",
+      "file": "mcm-icm/2025/2025-F.pdf",
+      "topics": [
+       "ICM"
+      ],
+      "pages": 3,
+      "source": "https://www.contest.comap.com/undergraduate/contests/mcm/contests/2025/problems/2025_ICM_Problem_F.pdf",
+      "source_note": "COMAP 官方下载"
+     }
+    ],
+    "2026": [
+     {
+      "id": "A",
+      "title": "Modeling Smartphone Battery Drain",
+      "file": "mcm-icm/2026/2026-A.pdf",
+      "topics": [
+       "MCM"
+      ],
+      "pages": 3,
+      "source": "https://www.contest.comap.com/undergraduate/contests/mcm/contests/2026/problems/2026_MCM_Problem_A.pdf",
+      "source_note": "COMAP 官方下载"
+     },
+     {
+      "id": "B",
+      "title": "Creating a Moon Colony Using a Space Elevator System",
+      "file": "mcm-icm/2026/2026-B.pdf",
+      "topics": [
+       "MCM"
+      ],
+      "pages": 3,
+      "source": "https://www.contest.comap.com/undergraduate/contests/mcm/contests/2026/problems/2026_MCM_Problem_B.pdf",
+      "source_note": "COMAP 官方下载"
+     },
+     {
+      "id": "C",
+      "title": "Data With The Stars",
+      "file": "mcm-icm/2026/2026-C.pdf",
+      "topics": [
+       "MCM"
+      ],
+      "pages": 5,
+      "source": "https://www.contest.comap.com/undergraduate/contests/mcm/contests/2026/problems/2026_MCM_Problem_C.pdf",
+      "source_note": "COMAP 官方下载"
+     },
+     {
+      "id": "D",
+      "title": "Managing Sports for Success",
+      "file": "mcm-icm/2026/2026-D.pdf",
+      "topics": [
+       "ICM"
+      ],
+      "pages": 4,
+      "source": "https://www.contest.comap.com/undergraduate/contests/mcm/contests/2026/problems/2026_ICM_Problem_D.pdf",
+      "source_note": "COMAP 官方下载"
+     },
+     {
+      "id": "E",
+      "title": "Passive Solar Shading",
+      "file": "mcm-icm/2026/2026-E.pdf",
+      "topics": [
+       "ICM"
+      ],
+      "pages": 4,
+      "source": "https://www.contest.comap.com/undergraduate/contests/mcm/contests/2026/problems/2026_ICM_Problem_E.pdf",
+      "source_note": "COMAP 官方下载"
+     },
+     {
+      "id": "F",
+      "title": "To Gen-AI, or Not To Gen-AI (or how to Gen-AI)? That is the Question!",
+      "file": "mcm-icm/2026/2026-F.pdf",
+      "topics": [
+       "ICM"
+      ],
+      "pages": 2,
+      "source": "https://www.contest.comap.com/undergraduate/contests/mcm/contests/2026/problems/2026_ICM_Problem_F.pdf",
+      "source_note": "COMAP 官方下载"
+     }
+    ]
+   }
   },
   "shuweibei": {
    "name": "数维杯大学生数学建模挑战赛",
    "organizer": "内蒙古创新教育学会",
    "site": "https://www.nmmcm.org.cn/",
-   "note": "分秋季赛与国际赛，题目数为 2–3 道。",
-   "years": {}
+   "note": "分春季赛（国内赛）与秋季赛（国际赛）。官方只公开当年题目，历史真题多为网盘/平台外链，故本库为**尽力收集**：来源含公开仓库、转载重排、官网页面存档，逐份在「备注」里标明；缺口见 shuweibei/SOURCES_AND_GAPS.md。",
+   "years": {
+    "2019": [
+     {
+      "id": "A/B/C(全套)",
+      "title": "2019年数维杯大学生数学建模竞赛题目（A题 我国省际生态环境与经济交互状况的综合评价 等）",
+      "file": "shuweibei/2019-春季赛/2019-春季赛-全套.pdf",
+      "topics": [
+       "春季赛",
+       "国赛"
+      ],
+      "pages": 3,
+      "source": "https://github.com/w2pik/- (2-10数维杯/2019/2019年数维杯大学生数学建模竞赛题目.pdf)",
+      "source_note": "官网历届赛题页面的网页存档(print-to-PDF截图)，含该年全部赛题文字；文本层为图片，经OCR确认"
+     }
+    ],
+    "2020": [
+     {
+      "id": "A/B/C(全套)",
+      "title": "2020“数维杯”大学生数学建模竞赛赛题题目（A题 舆情监测情感倾向分析建模 等）",
+      "file": "shuweibei/2020-春季赛/2020-春季赛-全套.pdf",
+      "topics": [
+       "春季赛",
+       "国赛"
+      ],
+      "pages": 4,
+      "source": "https://github.com/w2pik/- (2-10数维杯/2020/2020“数维杯”大学生数学建模竞赛赛题题目.pdf)",
+      "source_note": "官网赛题页面的网页存档(print-to-PDF截图)，含该年全部赛题文字；经OCR确认"
+     }
+    ],
+    "2021": [
+     {
+      "id": "A",
+      "title": "外卖骑手的送餐危机",
+      "file": "shuweibei/2021-春季赛/2021-春季赛-A.pdf",
+      "topics": [
+       "春季赛",
+       "国赛"
+      ],
+      "pages": 4,
+      "source": "https://github.com/sunzhenqiang19980125/2021.05_NMMCM (problems/2021-NMMCM-Problem A/)",
+      "source_note": ""
+     },
+     {
+      "id": "B",
+      "title": "中小城市地铁运营与建设优化设计",
+      "file": "shuweibei/2021-春季赛/2021-春季赛-B.pdf",
+      "topics": [
+       "春季赛",
+       "国赛"
+      ],
+      "pages": 3,
+      "source": "https://github.com/sunzhenqiang19980125/2021.05_NMMCM (problems/2021-NMMCM-Problem B/)",
+      "source_note": ""
+     },
+     {
+      "id": "B",
+      "title": "Analysis and prediction for extreme precipitation (2021 “ShuWei Cup” B)",
+      "file": "shuweibei/2021-秋季赛/2021-秋季赛-B.pdf",
+      "topics": [
+       "秋季赛",
+       "国际赛"
+      ],
+      "pages": 2,
+      "source": "https://github.com/971851309/shuwei-cup-modeling (2021_“ShuWei Cup”IMCM_Problem/B_Problem)",
+      "source_note": "英文赛题，正文不含赛事名；据来源仓库目录 2021_“ShuWei Cup”IMCM_Problem 及内容(郑州暴雨)确认"
+     },
+     {
+      "id": "C",
+      "title": "运动会优化比赛模式探索",
+      "file": "shuweibei/2021-春季赛/2021-春季赛-C.pdf",
+      "topics": [
+       "春季赛",
+       "国赛"
+      ],
+      "pages": 7,
+      "source": "https://github.com/sunzhenqiang19980125/2021.05_NMMCM (problems/2021-NMMCM-Problem C/)",
+      "source_note": ""
+     },
+     {
+      "id": "C",
+      "title": "Future development plans for tourism under the Corona-virus disease (2021 “ShuWei Cup” C)",
+      "file": "shuweibei/2021-秋季赛/2021-秋季赛-C.pdf",
+      "topics": [
+       "秋季赛",
+       "国际赛"
+      ],
+      "pages": 2,
+      "source": "https://github.com/971851309/shuwei-cup-modeling (2021_“ShuWei Cup”IMCM_Problem/C_Problem)",
+      "source_note": "英文赛题，据来源仓库目录确认"
+     },
+     {
+      "id": "D",
+      "title": "Model analysis of box office fluctuations in the 2021 movie market (2021 “ShuWei Cup” D)",
+      "file": "shuweibei/2021-秋季赛/2021-秋季赛-D.pdf",
+      "topics": [
+       "秋季赛",
+       "国际赛"
+      ],
+      "pages": 4,
+      "source": "https://github.com/971851309/shuwei-cup-modeling (2021_“ShuWei Cup”IMCM_Problem/D_Problem)",
+      "source_note": "英文赛题，据来源仓库目录确认"
+     }
+    ],
+    "2022": [
+     {
+      "id": "A",
+      "title": "银行效率评价与破产成因分析",
+      "file": "shuweibei/2022-春季赛/2022-春季赛-A.pdf",
+      "topics": [
+       "春季赛",
+       "国赛"
+      ],
+      "pages": 1,
+      "source": "https://blog.csdn.net/weixin_51660995/article/details/124607608",
+      "source_note": "据公开全文转载重排生成的 docx（非官方原件）；题目文字与来源一致"
+     },
+     {
+      "id": "B",
+      "title": "大规模新型冠状病毒疫情最优应对策略研究",
+      "file": "shuweibei/2022-春季赛/2022-春季赛-B.pdf",
+      "topics": [
+       "春季赛",
+       "国赛"
+      ],
+      "pages": 1,
+      "source": "https://blog.csdn.net/weixin_51660995/article/details/124607608",
+      "source_note": "据公开全文转载重排生成的 docx（非官方原件）；题目文字与来源一致"
+     },
+     {
+      "id": "C",
+      "title": "电动汽车充电站的部署优化策略",
+      "file": "shuweibei/2022-春季赛/2022-春季赛-C.pdf",
+      "topics": [
+       "春季赛",
+       "国赛"
+      ],
+      "pages": 2,
+      "source": "https://blog.csdn.net/weixin_51660995/article/details/124607608",
+      "source_note": "据公开全文转载重排生成的 docx（非官方原件）；题目文字与来源一致"
+     }
+    ],
+    "2024": [
+     {
+      "id": "A",
+      "title": "Frequency Estimation Problems in Aircraft Laser Velocimetry",
+      "file": "shuweibei/2024-秋季赛/2024-秋季赛-A.pdf",
+      "topics": [
+       "秋季赛",
+       "国际赛"
+      ],
+      "pages": 3,
+      "source": "https://github.com/dashen2004/2024Shuwei_Cup_IMCM",
+      "source_note": ""
+     },
+     {
+      "id": "B",
+      "title": "Research on the Collaborative Estimation Method for Spatial Variables",
+      "file": "shuweibei/2024-秋季赛/2024-秋季赛-B.pdf",
+      "topics": [
+       "秋季赛",
+       "国际赛"
+      ],
+      "pages": 3,
+      "source": "https://github.com/dashen2004/2024Shuwei_Cup_IMCM",
+      "source_note": ""
+     },
+     {
+      "id": "C",
+      "title": "Modeling of pulsar timing noise deduction and atmospheric time delay deduction of time signals",
+      "file": "shuweibei/2024-秋季赛/2024-秋季赛-C.pdf",
+      "topics": [
+       "秋季赛",
+       "国际赛"
+      ],
+      "pages": 7,
+      "source": "https://github.com/dashen2004/2024Shuwei_Cup_IMCM",
+      "source_note": ""
+     },
+     {
+      "id": "D",
+      "title": "Evaluation of Urban Resilience and Sustainable Development Capacity",
+      "file": "shuweibei/2024-秋季赛/2024-秋季赛-D.pdf",
+      "topics": [
+       "秋季赛",
+       "国际赛"
+      ],
+      "pages": 2,
+      "source": "https://github.com/dashen2004/2024Shuwei_Cup_IMCM",
+      "source_note": ""
+     }
+    ],
+    "2025": [
+     {
+      "id": "A",
+      "title": "空中芭蕾——蹦床运动的力学行为分析",
+      "file": "shuweibei/2025-春季赛/2025-春季赛-A.pdf",
+      "topics": [
+       "春季赛",
+       "国赛"
+      ],
+      "pages": 4,
+      "source": "https://github.com/HuangShaoze2004/A-Study-on-the-Mechanics-of-Trampoline-Sports-Based-on-the-Multi-Rigid-Body-Dynamics-Model (赛题/)",
+      "source_note": ""
+     },
+     {
+      "id": "B",
+      "title": "Research on Crop Leaf Disease",
+      "file": "shuweibei/2025-秋季赛/2025-秋季赛-B.pdf",
+      "topics": [
+       "秋季赛",
+       "国际赛"
+      ],
+      "pages": 5,
+      "source": "https://github.com/apcipotrain/Crop-Disease-Diagnosis-ConvNeXt",
+      "source_note": ""
+     }
+    ],
+    "2026": [
+     {
+      "id": "A",
+      "title": "抱轨式磁浮列车的悬浮电磁铁故障检测问题",
+      "file": "shuweibei/2026-春季赛/2026-春季赛-A.pdf",
+      "topics": [
+       "春季赛",
+       "国赛"
+      ],
+      "pages": 5,
+      "source": "https://github.com/HLL007007/2026shuweibei (题目/A题/)",
+      "source_note": "2026年为额外收录（任务目标为2019–2025）"
+     },
+     {
+      "id": "B",
+      "title": "智能办公场景下多源异构文件识别与治理优化",
+      "file": "shuweibei/2026-春季赛/2026-春季赛-B.pdf",
+      "topics": [
+       "春季赛",
+       "国赛"
+      ],
+      "pages": 4,
+      "source": "https://github.com/HLL007007/2026shuweibei (题目/B题/)",
+      "source_note": "2026年为额外收录（任务目标为2019–2025）"
+     },
+     {
+      "id": "C",
+      "title": "我国碳排放数据分析与研究",
+      "file": "shuweibei/2026-春季赛/2026-春季赛-C.pdf",
+      "topics": [
+       "春季赛",
+       "国赛"
+      ],
+      "pages": 2,
+      "source": "https://github.com/HLL007007/2026shuweibei (题目/C题/)",
+      "source_note": "2026年为额外收录（任务目标为2019–2025）"
+     }
+    ]
+   }
   }
  }
 }

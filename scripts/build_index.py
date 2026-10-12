@@ -14,7 +14,6 @@ import argparse
 import json
 import os
 import sys
-from urllib.parse import quote
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 META = os.path.join(ROOT, "problems", "meta.json")
@@ -29,9 +28,13 @@ def load_meta() -> dict:
 
 
 def rel_link(target: str, from_dir: str) -> str:
-    """从索引文件所在目录到题目文件的相对链接（URL 编码，中文路径也能点）。"""
+    """从索引文件所在目录到题目文件的相对链接。
+
+    只转义空格（GitHub 渲染中文路径没问题），避免把中文路径编码成一串 %E6%98%A5
+    那样没法读、也没法手工改。
+    """
     rel = os.path.relpath(os.path.join(ROOT, "problems", target), from_dir)
-    return quote(rel.replace(os.sep, "/"))
+    return rel.replace(os.sep, "/").replace(" ", "%20")
 
 
 def collect_rows(meta: dict) -> tuple[list[tuple], list[str]]:
