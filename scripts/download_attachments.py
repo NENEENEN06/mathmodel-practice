@@ -34,14 +34,25 @@ def download(url: str, dst: str) -> None:
 
 
 def extract(archive: str, outdir: str) -> bool:
+    """按扩展名挑解压工具；rar 需要 unrar/unar/bsdtar 之一（本机 7z 不带 RAR 解压能力）。"""
     os.makedirs(outdir, exist_ok=True)
-    for tool in (["7z", "x", "-y", f"-o{outdir}", archive], ["unzip", "-o", archive, "-d", outdir]):
+    if archive.lower().endswith(".rar"):
+        tools = [["unrar", "x", "-o+", archive, outdir + "/"],
+                 ["unar", "-o", outdir, archive],
+                 ["bsdtar", "-xf", archive, "-C", outdir]]
+    else:
+        tools = [["7z", "x", "-y", f"-o{outdir}", archive],
+                 ["unzip", "-o", archive, "-d", outdir],
+                 ["bsdtar", "-xf", archive, "-C", outdir]]
+    for tool in tools:
         try:
             p = subprocess.run(tool, capture_output=True, text=True, timeout=3600)
             if p.returncode == 0:
                 return True
         except FileNotFoundError:
             continue
+    if archive.lower().endswith(".rar"):
+        print("  提示：本机 7z 不带 RAR 解压能力，需要先安装 unrar / unar / bsdtar 之一", file=sys.stderr)
     return False
 
 
